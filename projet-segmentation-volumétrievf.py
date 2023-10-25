@@ -102,6 +102,7 @@ def croissance_region(I,s,seuil):
 
 ### SUJET 1 ###
 print('\n--- Sujet 1 ---\n')
+
 #1. ouvrir l'image 
 S1 = 'sujet1.nii'
 Im1 = nb.load(S1) 
@@ -155,6 +156,7 @@ croissance_region(Sujet181,seed,seuil)
 
 ### SUJET 2 ###
 print('\n--- Sujet 2 ---\n')
+
 #1. ouvrir l'image 
 S2 = 'sujet2.nii'
 Im1 = nb.load(S2) 
@@ -208,6 +210,7 @@ croissance_region(Sujet281,seed2,seuil2)
 
 ### SUJET 3 ###
 print('\n--- Sujet 3 ---\n')
+
 #1. ouvrir l'image 
 S3 = 'sujet3.nii'
 Im1 = nb.load(S3) 

@@ -8,4 +8,5 @@ This repository contains a script that allow to perform a region growing from a 
 
 > [!NOTE]
 >🇫🇷 Ce script fonctionne uniquement pour des fichiers de type .nii qui sont couramment utilisés pour stocker les données issues d'Imagerie par Résonance Magnétique (IRM).
+> 
 >🇬🇧 This script works only for .nii file that are commonly used to store magnetic resonance imaging (MRI) data.

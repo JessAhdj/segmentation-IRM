@@ -1,6 +1,7 @@
 ##################################################
 #   Volumétrie du corps calleux sur images IRM   #
 ##################################################
+# Auteur : Jessim Ahdjoudj
 # Ce script permet à partir d'une seed choisie/placée par l'utilisateur :
 #   - d’isoler une image du corps calleux 
 #   - puis de faire un comptage de voxels pour la mesure de volume (càd sa volumétrie)
@@ -99,7 +100,8 @@ def croissance_region(I,s,seuil):
 #  Analyse  #
 #############
 
-# SUJET 1
+### SUJET 1 ###
+print('\n--- Sujet 1 ---\n')
 #1. ouvrir l'image 
 S1 = 'sujet1.nii'
 Im1 = nb.load(S1) 
@@ -151,7 +153,8 @@ croissance_region(Sujet181,seed,seuil)
 #7. visualisation ma région d'intérêt 
     #si besoin, on ajuste le seuil et on recommence
 
-# SUJET 2
+### SUJET 2 ###
+print('\n--- Sujet 2 ---\n')
 #1. ouvrir l'image 
 S2 = 'sujet2.nii'
 Im1 = nb.load(S2) 
@@ -203,7 +206,8 @@ croissance_region(Sujet281,seed2,seuil2)
 #7. visualisation ma région d'intérêt 
     #si besoin, on ajuste le seuil et on recommence
 
-# SUJET 3
+### SUJET 3 ###
+print('\n--- Sujet 3 ---\n')
 #1. ouvrir l'image 
 S3 = 'sujet3.nii'
 Im1 = nb.load(S3) 
